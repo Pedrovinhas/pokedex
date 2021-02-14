@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+h1 {
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
