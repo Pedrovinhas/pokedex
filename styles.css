@@ -19,3 +19,48 @@ h1 {
     text-align: center;
     font-size: 48px;
 }
+
+.poke-container {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto; /* Coloca tudo no centro */
+    max-width: 1200px;
+}
+
+.pokemon {
+    background-color: #eeeeee;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.pokemon .img-container {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.pokemon .img-container img {
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+.pokemon .info {
+    margin-top: 20px;
+}
+
+.pokemon .number {
+    background: #ccc;
+    border-radius: 10px;
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+.pokemon .name {
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
+}
+
